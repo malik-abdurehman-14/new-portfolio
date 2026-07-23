@@ -78,7 +78,7 @@ export function Experience() {
               My <span className="text-gradient-blue">experience</span> timeline
             </>
           }
-          description="Seven years of building, automating, and shipping — from frontend craft to AI systems."
+          description="My journey building responsive websites, scalable web applications, backend systems, SaaS platforms, and cross-platform mobile apps."
         />
 
         <div ref={containerRef} className="relative mt-16">

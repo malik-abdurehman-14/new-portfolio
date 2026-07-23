@@ -5,8 +5,8 @@ export type SocialLink = {
 };
 
 export const socialLinks: SocialLink[] = [
-  { label: 'GitHub', href: 'https://github.com', icon: 'github' },
-  { label: 'LinkedIn', href: 'https://linkedin.com', icon: 'linkedin' },
-  { label: 'Email', href: 'mailto:hello@alexcarter.dev', icon: 'mail' },
-  { label: 'WhatsApp', href: 'https://wa.me/10000000000', icon: 'whatsapp' },
+  { label: 'GitHub', href: 'https://github.com/malik-abdurehman-14', icon: 'github' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/abdurehman-zafar14/', icon: 'linkedin' },
+  { label: 'Email', href: 'mailto:abdurehmanzafar.work@gmail.com', icon: 'mail' },
+  { label: 'WhatsApp', href: 'https://wa.me/923244748625', icon: 'whatsapp' },
 ];

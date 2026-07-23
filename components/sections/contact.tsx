@@ -25,14 +25,44 @@ export function Contact() {
     timeline: '',
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      setForm({ name: '', email: '', company: '', details: '', budget: '', timeline: '' });
-    }, 4000);
-  };
+const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+
+  const phoneNumber = '923244748625';
+
+  const message = `
+Hello Abdurehman,
+
+I would like to discuss a project with you.
+
+Name: ${form.name}
+Email: ${form.email}
+Company: ${form.company || 'Not provided'}
+Budget: ${form.budget || 'Not selected'}
+Timeline: ${form.timeline || 'Not selected'}
+
+Project Details:
+${form.details}
+  `.trim();
+
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+
+  setSubmitted(true);
+
+  setTimeout(() => {
+    setSubmitted(false);
+    setForm({
+      name: '',
+      email: '',
+      company: '',
+      details: '',
+      budget: '',
+      timeline: '',
+    });
+  }, 4000);
+};
 
   return (
     <section id="contact" className="relative overflow-hidden py-24 sm:py-32">
@@ -46,10 +76,10 @@ export function Contact() {
           eyebrow="Get In Touch"
           title={
             <>
-              Let&apos;s build something <span className="text-gradient-blue">extraordinary</span>
+              Let&apos;s build your next{' '} <span className="text-gradient-blue">digital product</span>
             </>
           }
-          description="Tell me about your project and I'll get back to you within 24 hours."
+          description="Share your project requirements, goals, and timeline. I’ll review the details and respond as soon as possible."
         />
 
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-5">
@@ -84,7 +114,7 @@ export function Contact() {
                 <span className="text-sm font-semibold text-white">{contactInfo.availability}</span>
               </div>
               <p className="mt-2 text-xs text-white/50">
-                Currently accepting new projects for Q3 2026. Limited slots available.
+                 Available for selected website, web application, SaaS, and mobile app projects.
               </p>
             </div>
           </div>

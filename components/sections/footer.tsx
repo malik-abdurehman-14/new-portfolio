@@ -40,7 +40,7 @@ export function Footer() {
               <Sparkles className="h-5 w-5 text-white" />
             </div>
             <span className="font-display text-lg font-bold text-white">
-              Alex<span className="text-electric">.</span>
+              Abdurehman<span className="text-electric">.</span>
             </span>
           </div>
 
@@ -75,7 +75,7 @@ export function Footer() {
 
         <div className="mt-8 flex flex-col items-center justify-between gap-2 border-t border-white/5 pt-6 sm:flex-row">
           <p className="text-xs text-white/40">
-            &copy; {new Date().getFullYear()} Alex Carter. All rights reserved.
+            &copy; {new Date().getFullYear()} Abdurehman Malik. All rights reserved.
           </p>
           <p className="text-xs text-white/40">
             Built with Next.js, Framer Motion &amp; GSAP

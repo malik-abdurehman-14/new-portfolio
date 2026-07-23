@@ -9,75 +9,115 @@ export type Service = {
 
 export const services: Service[] = [
   {
-    id: 'ai-voice-agents',
-    title: 'AI Voice Agents',
-    description:
-      'Human-quality voice agents that handle inbound and outbound calls, schedule appointments, and qualify leads 24/7.',
-    icon: 'PhoneCall',
-    features: ['Vapi & Retell integration', 'Natural conversation flow', 'CRM auto-sync', 'Multi-language support'],
-    accent: '#38bdf8',
-  },
-  {
-    id: 'ai-chatbots',
-    title: 'AI Chatbots',
-    description:
-      'Context-aware chatbots trained on your knowledge base that resolve support tickets, capture leads, and boost conversions.',
-    icon: 'MessageSquare',
-    features: ['RAG-powered answers', 'Website + WhatsApp + Telegram', 'Human handoff', 'Analytics dashboard'],
-    accent: '#22d3ee',
-  },
-  {
-    id: 'workflow-automation',
-    title: 'Workflow Automation',
-    description:
-      'Eliminate repetitive work with custom automation pipelines connecting your tools, data, and teams seamlessly.',
-    icon: 'Workflow',
-    features: ['n8n & Make.com builds', 'Email & document automation', 'Approval flows', 'Error monitoring'],
-    accent: '#a855f7',
-  },
-  {
     id: 'website-development',
     title: 'Website Development',
     description:
-      'High-performance, conversion-focused websites and web apps built with modern frameworks and premium design.',
-    icon: 'Code2',
-    features: ['Next.js & React', 'SEO optimized', '100/100 Lighthouse', 'Headless CMS'],
+      'Modern, responsive, and high-performance websites designed to represent your brand and convert visitors into customers.',
+    icon: 'Monitor',
+    features: [
+      'Responsive design',
+      'SEO-friendly structure',
+      'Fast loading speed',
+      'Cross-browser compatibility',
+    ],
+    accent: '#38bdf8',
+  },
+  {
+    id: 'web-application-development',
+    title: 'Web Applications',
+    description:
+      'Custom web applications built around your business requirements with scalable architecture and seamless user experiences.',
+    icon: 'PanelsTopLeft',
+    features: [
+      'Custom dashboards',
+      'User authentication',
+      'Role-based access',
+      'Real-time functionality',
+    ],
+    accent: '#22d3ee',
+  },
+  {
+    id: 'mobile-app-development',
+    title: 'Mobile App Development',
+    description:
+      'Cross-platform mobile applications for Android and iOS built with React Native and modern development practices.',
+    icon: 'Smartphone',
+    features: [
+      'Android and iOS apps',
+      'React Native development',
+      'Push notifications',
+      'App store deployment',
+    ],
+    accent: '#a855f7',
+  },
+  {
+    id: 'saas-development',
+    title: 'SaaS Development',
+    description:
+      'Scalable software-as-a-service platforms with subscriptions, dashboards, account management, and secure cloud architecture.',
+    icon: 'Cloud',
+    features: [
+      'Subscription systems',
+      'Multi-user dashboards',
+      'Payment integration',
+      'Scalable architecture',
+    ],
     accent: '#818cf8',
   },
   {
-    id: 'crm-integration',
-    title: 'CRM Integration',
+    id: 'backend-development',
+    title: 'Backend Development',
     description:
-      'Connect your AI agents and automations to HubSpot, Salesforce, or any CRM for a single source of truth.',
-    icon: 'Users',
-    features: ['Bi-directional sync', 'Custom field mapping', 'Pipeline automation', 'Lead enrichment'],
+      'Secure and reliable backend systems that manage your application logic, users, databases, and business processes.',
+    icon: 'Server',
+    features: [
+      'Node.js and Express',
+      'Database architecture',
+      'Authentication and security',
+      'Performance optimization',
+    ],
     accent: '#34d399',
   },
   {
     id: 'api-integration',
     title: 'API Integration',
     description:
-      'Robust integrations between any services — payment, communication, data, and third-party APIs — built to scale.',
+      'Reliable integration of payment gateways, communication platforms, maps, authentication, and third-party services.',
     icon: 'Plug',
-    features: ['REST & GraphQL', 'OAuth & webhooks', 'Rate-limit handling', 'Retry & logging'],
+    features: [
+      'REST and GraphQL APIs',
+      'Payment gateways',
+      'OAuth authentication',
+      'Webhooks and external APIs',
+    ],
     accent: '#fbbf24',
   },
   {
-    id: 'business-automation',
-    title: 'Business Automation',
+    id: 'ecommerce-development',
+    title: 'E-commerce Development',
     description:
-      'End-to-end automation of your operations — from lead capture to invoicing — so your team focuses on growth.',
-    icon: 'Rocket',
-    features: ['Process auditing', 'End-to-end pipelines', 'Reporting & alerts', 'Team training'],
+      'Feature-rich online stores with secure payments, product management, order processing, and smooth shopping experiences.',
+    icon: 'ShoppingCart',
+    features: [
+      'Product management',
+      'Secure checkout',
+      'Payment integration',
+      'Order tracking',
+    ],
     accent: '#f472b6',
   },
   {
-    id: 'custom-ai-solutions',
-    title: 'Custom AI Solutions',
+    id: 'maintenance-support',
+    title: 'Maintenance & Support',
     description:
-      'Bespoke AI systems tailored to your business — from internal copilots to specialized models and agents.',
-    icon: 'BrainCircuit',
-    features: ['Custom agent architecture', 'Fine-tuned models', 'Private deployments', 'Ongoing optimization'],
+      'Ongoing technical support, performance improvements, bug fixes, updates, and feature enhancements for existing products.',
+    icon: 'Wrench',
+    features: [
+      'Bug fixing',
+      'Performance improvements',
+      'Security updates',
+      'New feature development',
+    ],
     accent: '#c084fc',
   },
 ];

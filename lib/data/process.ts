@@ -11,49 +11,56 @@ export const processSteps: ProcessStep[] = [
     id: 'discovery',
     step: 1,
     title: 'Discovery',
-    description: 'We discuss your goals, challenges, and vision to define the project scope clearly.',
+    description:
+      'We discuss your goals, requirements, target users, and project expectations to define a clear scope.',
     icon: 'Search',
   },
   {
-    id: 'research',
+    id: 'planning',
     step: 2,
-    title: 'Research',
-    description: 'I analyze your systems, competitors, and industry to design the optimal solution.',
-    icon: 'Microscope',
+    title: 'Planning',
+    description:
+      'I define the features, user flows, technical architecture, timeline, and development roadmap.',
+    icon: 'ClipboardList',
   },
   {
     id: 'design',
     step: 3,
     title: 'Design',
-    description: 'I create wireframes, flows, and architecture — refining until everything feels right.',
+    description:
+      'Wireframes and interface concepts are created to ensure a clear, intuitive, and user-friendly experience.',
     icon: 'PenTool',
   },
   {
     id: 'development',
     step: 4,
     title: 'Development',
-    description: 'Clean, scalable code is written with regular updates and feedback checkpoints.',
+    description:
+      'The product is built with clean, scalable code while sharing regular progress updates for feedback.',
     icon: 'Code2',
   },
   {
     id: 'testing',
     step: 5,
     title: 'Testing',
-    description: 'Rigorous QA across devices, edge cases, and performance benchmarks ensures reliability.',
+    description:
+      'The product is tested across devices, browsers, screen sizes, features, and common user scenarios.',
     icon: 'ShieldCheck',
   },
   {
     id: 'deployment',
     step: 6,
-    title: 'Deployment',
-    description: 'Seamless launch with monitoring, documentation, and zero-downtime delivery.',
+    title: 'Launch',
+    description:
+      'The final product is deployed, configured, reviewed, and prepared for real users.',
     icon: 'Rocket',
   },
   {
     id: 'support',
     step: 7,
     title: 'Support',
-    description: 'Ongoing optimization, updates, and improvements keep your system ahead of the curve.',
+    description:
+      'Ongoing support, updates, bug fixes, and improvements are provided based on your needs.',
     icon: 'LifeBuoy',
   },
 ];

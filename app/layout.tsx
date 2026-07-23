@@ -1,6 +1,11 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter, Space_Grotesk, JetBrains_Mono } from 'next/font/google';
+import {
+  Inter,
+  Space_Grotesk,
+  JetBrains_Mono,
+} from 'next/font/google';
+
 import { SmoothScrollProvider } from '@/components/providers/smooth-scroll';
 import { CursorGlow } from '@/components/providers/cursor-glow';
 import { ScrollProgress } from '@/components/providers/scroll-progress';
@@ -24,38 +29,73 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Alex Carter — AI Automation Engineer & Full Stack Developer',
-  description:
-    'Premium portfolio of Alex Carter — building intelligent AI systems, AI voice agents, workflow automations, and high-end web experiences for global clients.',
-  keywords: [
-    'AI Automation Engineer',
-    'AI Voice Agents',
-    'Workflow Automation',
-    'Full Stack Developer',
-    'Next.js Developer',
-    'AI Chatbots',
-    'Business Automation',
-  ],
-  authors: [{ name: 'Alex Carter' }],
-  openGraph: {
-    title: 'Alex Carter — AI Automation Engineer & Full Stack Developer',
-    description:
-      'Building intelligent AI systems, voice agents, and premium web experiences for global clients.',
-    type: 'website',
+  title: {
+    default: 'Abdurehman Malik — Full Stack & Mobile App Developer',
+    template: '%s | Abdurehman Malik',
   },
+
+  description:
+    'Portfolio of Abdurehman Malik, a full stack web and mobile app developer building modern websites, scalable web applications, SaaS platforms, APIs, and cross-platform mobile apps.',
+
+    icons: {
+    icon: '/favicon.png',
+    shortcut: '/icon.png',
+    apple: '/icon.png',
+  },
+
+  keywords: [
+    'Abdurehman Malik',
+    'Full Stack Developer',
+    'Web Application Developer',
+    'Mobile App Developer',
+    'SaaS Developer',
+    'Next.js Developer',
+    'React Developer',
+    'React Native Developer',
+    'Node.js Developer',
+    'TypeScript Developer',
+    'Frontend Developer',
+    'Backend Developer',
+    'API Developer',
+    'Pakistan Web Developer',
+  ],
+
+  authors: [
+    {
+      name: 'Abdurehman Malik',
+    },
+  ],
+
+  creator: 'Abdurehman Malik',
+  publisher: 'Abdurehman Malik',
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  openGraph: {
+    title: 'Abdurehman Malik — Full Stack & Mobile App Developer',
+    description:
+      'Building modern websites, scalable web applications, SaaS platforms, backend systems, and cross-platform mobile apps.',
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Abdurehman Malik Portfolio',
+  },
+
   twitter: {
     card: 'summary_large_image',
-    title: 'Alex Carter — AI Automation Engineer',
+    title: 'Abdurehman Malik — Full Stack & Mobile App Developer',
     description:
-      'Building intelligent AI systems, voice agents, and premium web experiences.',
+      'Building modern websites, web applications, SaaS platforms, and mobile apps using scalable technologies.',
   },
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <body

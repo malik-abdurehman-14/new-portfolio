@@ -41,10 +41,11 @@ export function Skills() {
           eyebrow="Skills & Expertise"
           title={
             <>
-              A full-stack <span className="text-gradient-cyan">toolkit</span>
+              A complete development{' '}
+ <span className="text-gradient-cyan">toolkit</span>
             </>
           }
-          description="Deep expertise across the entire stack — from pixel-perfect frontends to AI infrastructure and cloud architecture."
+          description="Technologies and tools I use to build modern websites, scalable web applications, secure backend systems, and cross-platform mobile apps."
         />
 
         <StaggerContainer className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3" stagger={0.1}>

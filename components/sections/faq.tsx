@@ -12,7 +12,7 @@ export function FAQ() {
 
   return (
     <section id="faq" className="relative py-24 sm:py-32">
-      <div className="mx-auto max-w-3xl px-6">
+      <div className="mx-auto max-w-5xl px-6">
         <SectionHeader
           eyebrow="FAQ"
           title={
@@ -20,7 +20,7 @@ export function FAQ() {
               Frequently asked <span className="text-gradient-cyan">questions</span>
             </>
           }
-          description="Everything you need to know before we start working together."
+          description="Helpful answers about my development services, project process, timelines, pricing, and ongoing support."
         />
 
         <div className="mt-12 flex flex-col gap-3">

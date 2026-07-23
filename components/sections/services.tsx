@@ -22,7 +22,7 @@ export function Services() {
               What I can <span className="text-gradient-blue">build for you</span>
             </>
           }
-          description="From AI voice agents to premium websites — full-stack solutions designed to automate, impress, and scale."
+          description="From modern websites and scalable web applications to cross-platform mobile apps — complete development solutions built for performance, usability, and growth."
         />
 
         <StaggerContainer className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4" stagger={0.08}>

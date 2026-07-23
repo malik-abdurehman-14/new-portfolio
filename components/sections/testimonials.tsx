@@ -27,7 +27,7 @@ export function Testimonials() {
               What clients <span className="text-gradient-blue">say</span>
             </>
           }
-          description="Real feedback from founders and teams I've worked with."
+          description="Feedback from clients and teams I have worked with on websites, web applications, SaaS platforms, and mobile products."
         />
 
         <div className="relative mt-16">

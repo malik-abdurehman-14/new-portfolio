@@ -12,10 +12,10 @@ export const testimonials: Testimonial[] = [
   {
     id: 't1',
     name: 'Sarah Mitchell',
-    role: 'CEO',
+    role: 'Business Owner',
     company: 'BrightSmile Dental',
     content:
-      'Alex built our AI receptionist and it completely transformed our front desk. Patients can book 24/7, and our staff finally has breathing room. The quality of the voice agent is indistinguishable from a human.',
+      'Abdurehman developed a modern and responsive website that clearly presents our services and makes it easier for patients to contact our team. He communicated well throughout the project and delivered exactly what we needed.',
     avatar:
       'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2',
     rating: 5,
@@ -23,10 +23,10 @@ export const testimonials: Testimonial[] = [
   {
     id: 't2',
     name: 'James Okonkwo',
-    role: 'Head of Operations',
+    role: 'Operations Manager',
     company: 'FlowMart E-commerce',
     content:
-      'We hired Alex to automate our order processing and inventory sync. What used to take our team 20 hours a week now runs automatically. The ROI was visible within the first month. Exceptional work.',
+      'He helped us build a fast and user-friendly e-commerce platform with a smooth checkout experience. The website performs well across devices, and the overall development quality was excellent.',
     avatar:
       'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2',
     rating: 5,
@@ -37,7 +37,7 @@ export const testimonials: Testimonial[] = [
     role: 'Founder',
     company: 'Lumina SaaS',
     content:
-      'Alex delivered our SaaS platform ahead of schedule and the design quality is simply on another level. Investors consistently compliment the polish. He thinks like a product owner, not just a developer.',
+      'Abdurehman understood our product vision and transformed it into a polished SaaS platform. He handled both frontend and backend development professionally and always remained responsive to feedback.',
     avatar:
       'https://images.pexels.com/photos/4158298/pexels-photo-4158298.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2',
     rating: 5,
@@ -45,10 +45,10 @@ export const testimonials: Testimonial[] = [
   {
     id: 't4',
     name: 'David Chen',
-    role: 'CTO',
+    role: 'Product Manager',
     company: 'Apex Realty',
     content:
-      'The AI chatbot Alex built handles 70% of our property inquiries automatically. It understands context, qualifies leads, and syncs everything to our CRM. Our sales team only talks to warm leads now.',
+      'The property platform was delivered with a clean interface, reliable functionality, and excellent responsiveness. He paid close attention to the user experience and technical details throughout development.',
     avatar:
       'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2',
     rating: 5,
@@ -56,10 +56,10 @@ export const testimonials: Testimonial[] = [
   {
     id: 't5',
     name: 'Priya Sharma',
-    role: 'Marketing Director',
+    role: 'Project Director',
     company: 'Vertex Media',
     content:
-      'Our content pipeline went from 2 weeks per article to 2 hours. Alex built a multi-agent system that researches, drafts, and publishes. The output quality is so high our editors barely touch it.',
+      'Working with Abdurehman was smooth from start to finish. He provided regular updates, responded quickly to requested changes, and delivered a professional product that matched our requirements.',
     avatar:
       'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2',
     rating: 5,

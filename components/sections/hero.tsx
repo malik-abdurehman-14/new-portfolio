@@ -7,17 +7,17 @@ import { HeroBackground } from './hero-background';
 import { Magnetic } from '@/components/shared/magnetic';
 
 const rotatingTexts = [
-  'I Build Intelligent AI Systems',
-  'I Build AI Voice Agents',
-  'I Automate Businesses',
-  'I Create Premium Websites',
+  'Building Websites That Perform',
+  'Developing Mobile Apps That Scale',
+  'Creating Powerful SaaS Solutions',
+  'Turning Ideas into Digital Products',
 ];
 
 const titles = [
-  'AI Automation Engineer',
-  'AI Voice Agent Developer',
-  'Workflow Automation Specialist',
-  'Full Stack Web Developer',
+  'Next.js Developer',
+  'React Native Developer',
+  'Node.js Developer',
+  'TypeScript Developer',
 ];
 
 export function Hero() {
@@ -64,7 +64,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.05 }}
               className="text-sm font-medium uppercase tracking-[0.3em] text-electric"
             >
-              Hello, I&apos;m Alex Carter
+              Hello, I&apos;m Abdurehman Malik
             </motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 24 }}
@@ -72,9 +72,9 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.1 }}
               className="font-display text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl md:text-7xl text-balance"
             >
-              Building the
+              Building Modern
               <br />
-              <span className="text-gradient-blue animate-gradient">Future</span> with AI
+              <span className="text-gradient-blue animate-gradient"> Digital Products</span>
             </motion.h1>
           </div>
 
@@ -137,7 +137,7 @@ export function Hero() {
                 Contact Me
               </button>
             </Magnetic>
-            <Magnetic>
+            {/* <Magnetic>
               <button
                 onClick={() => scrollTo('#contact')}
                 className="flex items-center gap-2 rounded-xl border border-white/10 px-6 py-3.5 text-sm font-semibold text-white/70 transition-colors hover:bg-white/5 hover:text-white"
@@ -145,7 +145,7 @@ export function Hero() {
                 <Download className="h-4 w-4" />
                 Resume
               </button>
-            </Magnetic>
+            </Magnetic> */}
           </motion.div>
 
           {/* Mini stats */}
@@ -156,10 +156,10 @@ export function Hero() {
             className="flex items-center gap-8 pt-4"
           >
             {[
-              { value: '120+', label: 'Projects' },
-              { value: '15k+', label: 'Hours Saved' },
-              { value: '100%', label: 'Satisfaction' },
-            ].map((s) => (
+  { value: '40+', label: 'Projects Completed' },
+  { value: '4+', label: 'Years Experience' },
+  { value: '20+', label: 'Happy Clients' },
+].map((s) => (
               <div key={s.label}>
                 <div className="font-display text-2xl font-bold text-white">{s.value}</div>
                 <div className="text-xs text-white/40">{s.label}</div>

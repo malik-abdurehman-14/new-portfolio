@@ -24,10 +24,10 @@ export function Projects() {
           eyebrow="Featured Work"
           title={
             <>
-              Projects that <span className="text-gradient-blue">deliver results</span>
+               Projects built to{' '} <span className="text-gradient-blue">perform and scales</span>
             </>
           }
-          description="A selection of AI systems, automations, and web experiences built for clients worldwide."
+          description="A selection of websites, web applications, SaaS platforms, mobile apps, and custom digital products built using modern technologies."
         />
 
         {/* Filters */}

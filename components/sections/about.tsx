@@ -8,23 +8,23 @@ import { Reveal, StaggerContainer, StaggerItem } from '@/components/shared/revea
 const pillars = [
   {
     icon: Target,
-    title: 'Mission',
+    title: 'My Approach',
     description:
-      'To help businesses unlock their full potential by building intelligent AI systems that save time, reduce costs, and create exceptional customer experiences.',
+      'I focus on understanding each project’s goals and building reliable web and mobile solutions that are fast, user-friendly, and aligned with real business needs.',
     color: '#38bdf8',
   },
   {
     icon: Eye,
-    title: 'Vision',
+    title: 'My Focus',
     description:
-      'A world where every business — regardless of size — can leverage enterprise-grade AI automation to compete and win in their market.',
+      'My goal is to create modern digital products that combine clean design, strong functionality, excellent performance, and a seamless user experience.',
     color: '#a855f7',
   },
   {
     icon: Award,
     title: 'Experience',
     description:
-      '7+ years building for startups and enterprises. 120+ projects shipped. Specialized in AI, automation, and premium web experiences.',
+      'Experienced in developing responsive websites, scalable web applications, SaaS platforms, APIs, dashboards, and cross-platform mobile applications.',
     color: '#22d3ee',
   },
 ];
@@ -37,12 +37,12 @@ export function About() {
           eyebrow="About Me"
           title={
             <>
-              I turn complex problems into
+              Turning ideas into powerful
               <br />
-              <span className="text-gradient-blue">elegant AI solutions</span>
+              <span className="text-gradient-blue">web and mobile products</span>
             </>
           }
-          description="I'm a full-stack developer and AI automation engineer who blends technical depth with design sensibility to build systems that feel effortless."
+          description="I'm a full-stack web and mobile app developer focused on building fast, scalable, and user-friendly digital products using modern technologies."
         />
 
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2">
@@ -50,35 +50,36 @@ export function About() {
           <Reveal className="flex flex-col gap-6">
             <div className="relative overflow-hidden rounded-3xl border border-white/10">
               <img
-                src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2"
+                src="/my-img.jpeg"
                 alt="Workspace"
                 className="h-72 w-full object-cover transition-transform duration-700 hover:scale-105"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 flex items-center gap-3">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-electric to-purple text-white font-bold">
-                  AC
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-electric to-purple text-white font-bold">
+                  AM
                 </div>
                 <div>
-                  <div className="font-display text-sm font-bold text-white">Alex Carter</div>
-                  <div className="text-xs text-white/60">AI Engineer & Developer</div>
+                  <div className="font-display text-sm font-bold text-white">Abdurehman Malik</div>
+                  <div className="text-xs text-white/60">Full Stack Web & Mobile App Developer</div>
                 </div>
               </div>
             </div>
 
             <div className="space-y-4 text-white/60">
               <p className="leading-relaxed">
-                I started as a frontend developer obsessed with craft and animation. Over the
-                years, I expanded into full-stack engineering and then into AI — building voice
-                agents, chatbots, and automation systems that genuinely move the needle for
-                businesses.
+                I’m a full-stack developer passionate about transforming ideas
+                into modern, functional, and high-performing digital products.
+                I work across both frontend and backend development to build
+                complete solutions, from responsive user interfaces to secure
+                APIs, databases, and server-side systems.
               </p>
               <p className="leading-relaxed">
-                Today I run a boutique studio helping clients worldwide deploy AI systems that
-                handle real work — from answering calls to automating entire workflows. I treat
-                every project like a product: designed beautifully, built to scale, and obsessed
-                over until it feels effortless.
+                I also develop cross-platform mobile applications that deliver
+                smooth and consistent experiences across Android and iOS. My
+                focus is always on writing clean, maintainable code and creating
+                products that are scalable, reliable, and easy to use.
               </p>
             </div>
           </Reveal>

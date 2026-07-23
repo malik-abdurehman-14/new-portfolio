@@ -80,7 +80,7 @@ export function Navbar() {
               <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-electric to-purple opacity-0 blur-md transition-opacity duration-300 group-hover:opacity-60" />
             </div>
             <span className="font-display text-lg font-bold tracking-tight text-white">
-              Alex<span className="text-electric">.</span>
+              Abdurehman<span className="text-electric">.</span>
             </span>
           </button>
 

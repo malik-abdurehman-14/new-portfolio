@@ -41,7 +41,7 @@ export function Hero() {
     >
       <HeroBackground />
 
-      <div className="relative z-10 mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-12 px-6 lg:grid-cols-2">
+      <div className="relative z-10 mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-12 px-6 sm:px-8 lg:grid-cols-[1.2fr_0.8fr] lg:px-10">
         {/* Left content */}
         <div className="flex flex-col gap-6">
           <motion.div
@@ -57,7 +57,7 @@ export function Hero() {
             Available for new projects
           </motion.div>
 
-          <div className="space-y-2">
+          <div className="w-full max-w-3xl space-y-2">
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -70,7 +70,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.1 }}
-              className="font-display text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl md:text-7xl text-balance"
+              className="font-display text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl md:text-7xl"
             >
               Building Modern
               <br />

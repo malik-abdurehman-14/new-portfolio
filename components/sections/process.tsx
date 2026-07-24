@@ -7,7 +7,7 @@ import { DynamicIcon } from '@/components/shared/dynamic-icon';
 
 export function Process() {
   return (
-    <section id="process" className="relative py-24 sm:py-32">
+    <section id="process" className="relative py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeader
           eyebrow="How I Work"

@@ -69,7 +69,7 @@ export function Experience() {
   const lineHeight = useTransform(scrollYProgress, [0, 1], ['0%', '100%']);
 
   return (
-    <section id="experience" className="relative py-24 sm:py-32">
+    <section id="experience" className="relative py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeader
           eyebrow="Career Journey"

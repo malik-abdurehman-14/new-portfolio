@@ -35,7 +35,7 @@ function SkillBar({ name, level, color, delay }: { name: string; level: number; 
 
 export function Skills() {
   return (
-    <section id="skills" className="relative py-24 sm:py-32">
+    <section id="skills" className="relative py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeader
           eyebrow="Skills & Expertise"

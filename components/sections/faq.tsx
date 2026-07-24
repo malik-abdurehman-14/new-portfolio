@@ -11,7 +11,7 @@ export function FAQ() {
   const [open, setOpen] = useState<string | null>(faqItems[0]?.id ?? null);
 
   return (
-    <section id="faq" className="relative py-24 sm:py-32">
+    <section id="faq" className="relative py-16 sm:py-24">
       <div className="mx-auto max-w-5xl px-6">
         <SectionHeader
           eyebrow="FAQ"

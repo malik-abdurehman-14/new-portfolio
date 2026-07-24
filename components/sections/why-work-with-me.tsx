@@ -38,7 +38,7 @@ function CountUp({ value, suffix }: { value: number; suffix: string }) {
 
 export function WhyWorkWithMe() {
   return (
-    <section className="relative py-24 sm:py-32">
+    <section className="relative py-16 sm:py-24">
       <div className="absolute left-1/2 top-1/2 h-[400px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-electric/5 blur-[120px]" />
 
       <div className="relative mx-auto max-w-6xl px-6">

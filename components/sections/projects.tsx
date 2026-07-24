@@ -16,7 +16,7 @@ export function Projects() {
   const filtered = filter === 'All' ? projects : projects.filter((p) => p.category === filter);
 
   return (
-    <section id="projects" className="relative py-24 sm:py-32">
+    <section id="projects" className="relative py-16 sm:py-24">
       <div className="absolute left-1/2 top-0 h-[400px] w-[600px] -translate-x-1/2 rounded-full bg-electric/5 blur-[120px]" />
 
       <div className="relative mx-auto max-w-6xl px-6">
@@ -31,7 +31,7 @@ export function Projects() {
         />
 
         {/* Filters */}
-        <div className="mt-10 flex flex-wrap justify-center gap-2">
+        {/* <div className="mt-10 flex flex-wrap justify-center gap-2">
           {projectCategories.map((cat) => (
             <button
               key={cat}
@@ -51,22 +51,23 @@ export function Projects() {
               <span className="relative z-10">{cat}</span>
             </button>
           ))}
-        </div>
+        </div> */}
 
         {/* Grid */}
-        <motion.div layout className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
+        <motion.div layout className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
           <AnimatePresence mode="popLayout">
             {filtered.map((project) => (
               <motion.div
                 key={project.id}
                 layout
+                className="h-full"
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
               >
                 <TiltCard max={6} className="h-full">
-                  <div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.02] backdrop-blur transition-colors hover:border-white/20">
+                  <div className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-white/10 bg-white/[0.02] backdrop-blur transition-colors hover:border-white/20">
                     {/* Image */}
                     <div className="relative h-56 overflow-hidden">
                       <img
@@ -117,13 +118,14 @@ export function Projects() {
                       {/* Buttons */}
                       <div className="mt-5 flex items-center gap-3">
                         <a
+                        target='blank'
                           href={project.liveUrl}
                           className="flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-electric to-cyan px-4 py-2 text-xs font-semibold text-white transition-transform hover:scale-105"
                         >
                           <ExternalLink className="h-3.5 w-3.5" />
                           Live Demo
                         </a>
-                        <a
+                        {/* <a
                           href={project.caseStudyUrl}
                           className="flex items-center gap-1.5 rounded-lg border border-white/10 px-4 py-2 text-xs font-semibold text-white/70 transition-colors hover:bg-white/5 hover:text-white"
                         >
@@ -136,7 +138,7 @@ export function Projects() {
                           aria-label="GitHub"
                         >
                           <Github className="h-3.5 w-3.5" />
-                        </a>
+                        </a> */}
                       </div>
                     </div>
 

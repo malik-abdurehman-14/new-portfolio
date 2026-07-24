@@ -31,7 +31,7 @@ const pillars = [
 
 export function About() {
   return (
-    <section id="about" className="relative py-24 sm:py-32">
+    <section id="about" className="relative py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeader
           eyebrow="About Me"

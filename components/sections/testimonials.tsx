@@ -16,7 +16,7 @@ export function Testimonials() {
   };
 
   return (
-    <section className="relative py-24 sm:py-32">
+    <section className="relative py-16 sm:py-24">
       <div className="absolute left-1/2 top-1/2 h-[400px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-purple/5 blur-[120px]" />
 
       <div className="relative mx-auto max-w-5xl px-6">

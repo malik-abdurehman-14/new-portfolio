@@ -29,6 +29,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://abdurehman-dev.netlify.app'),
+
   title: {
     default: 'Abdurehman Malik — Full Stack & Mobile App Developer',
     template: '%s | Abdurehman Malik',
@@ -37,7 +39,7 @@ export const metadata: Metadata = {
   description:
     'Portfolio of Abdurehman Malik, a full stack web and mobile app developer building modern websites, scalable web applications, SaaS platforms, APIs, and cross-platform mobile apps.',
 
-    icons: {
+  icons: {
     icon: '/favicon.png',
     shortcut: '/icon.png',
     apple: '/icon.png',

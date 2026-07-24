@@ -52,7 +52,7 @@ export const projects: Project[] = [
       'FutureInno Technologies is a software development and AI automation company that helps businesses streamline operations, accelerate growth, and build scalable digital products. Specializing in custom software, SaaS platforms, AI agents, web and mobile applications, cloud solutions, and business automation, the company delivers end-to-end technology solutions tailored to the unique needs of startups, SMEs, and enterprises worldwide.',
     longDescription:
       'A React Native application featuring property search, agent profiles, saved listings, and personalized dashboards.',
-    category: 'E-Commerce',
+    category: 'Web Apps',
     image:
       '/projects/futureinno.png',
     tags: ['React Native', 'TypeScript', 'Node.js'],

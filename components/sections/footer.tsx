@@ -75,7 +75,7 @@ export function Footer() {
 
         <div className="mt-8 flex flex-col items-center justify-between gap-2 border-t border-white/5 pt-6 sm:flex-row">
           <p className="text-xs text-white/40">
-            &copy; {new Date().getFullYear()} Abdurehman Malik. All rights reserved.
+            &copy; {new Date().getFullYear()} Abdurehman Malik.
           </p>
           <p className="text-xs text-white/40">
             Built with Next.js, Framer Motion &amp; GSAP

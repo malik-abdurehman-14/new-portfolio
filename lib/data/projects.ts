@@ -62,6 +62,22 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: 'azar-plastic-surgery',
+    title: 'Azar Plastic Surgery',
+    description:
+      'Azar Plastic Surgery Clinic is a premium aesthetic and plastic surgery clinic specializing in cosmetic, reconstructive, and facial enhancement procedures. Led by an experienced consultant plastic surgeon, the clinic offers advanced treatments including rhinoplasty, hair transplant, liposuction, tummy tuck, facelift, eyelid surgery, and body contouring—combining modern surgical techniques with personalized care to deliver natural-looking, confidence-boosting results.',
+    longDescription:
+      'A full-stack booking platform that allows users to compare parking services, make secure online payments, and manage bookings through an intuitive interface.',
+    category: 'Web Apps',
+    image:
+      '/projects/surgery.png',
+    tags: ['Next.js', 'Node.js', 'Stripe', 'TypeScript'],
+    liveUrl: 'https://azarplast.com/rhinoplasty-surgery/?gad_source=1&gad_campaignid=23606400672&gbraid=0AAAABC9IYpDNTyHdR_vRMOitxl62Ac2c4&gclid=CjwKCAjwmozTBhAeEiwAkEGZzleX3ZresR5-hqvCgLV8G0BYZvrLjRJLGt3F32EmFN8ZQY70NC11ahoCFxwQAvD_BwE',
+    caseStudyUrl: '#',
+    githubUrl: '',
+    featured: true,
+  },
+  {
     id: 'sherawala-groups',
     title: 'Sherawala Groups',
     description:
@@ -89,6 +105,22 @@ export const projects: Project[] = [
       '/projects/alliance.png',
     tags: ['React', 'Node.js', 'MongoDB', 'REST API'],
     liveUrl: 'https://alliancegroupbodyshop.netlify.app/',
+    caseStudyUrl: '#',
+    githubUrl: '',
+    featured: true,
+  },
+  {
+    id: 'smileOn-ppecialist-pental-paractice',
+    title: 'SmileOn Specialist Dental Paractice',
+    description:
+      'SmileOn is one of Lahores leading multi-specialty dental clinics, offering comprehensive oral healthcare through a team of experienced dental specialists. The clinic provides advanced treatments including dental implants, cosmetic dentistry, orthodontics, veneers, teeth whitening, root canal therapy, and preventive dental care—delivering patient-focused treatment with modern technology and high clinical standards.',
+    longDescription:
+      'A full-stack booking platform that allows users to compare parking services, make secure online payments, and manage bookings through an intuitive interface.',
+    category: 'Web Apps',
+    image:
+      '/projects/smile.png',
+    tags: ['Next.js', 'Node.js', 'Stripe', 'TypeScript'],
+    liveUrl: 'https://smileon.pk/?gad_source=1&gad_campaignid=22098982968&gbraid=0AAAAACe0J1mdEJAmVUQD18HJm7Ee7k4gx&gclid=CjwKCAjwmozTBhAeEiwAkEGZzhVABWcFvkUR5e6348-4L56wiJAMknxv-1v2RbI9sFHTs56DgRI5kBoCcE0QAvD_BwE',
     caseStudyUrl: '#',
     githubUrl: '',
     featured: true,
@@ -124,37 +156,5 @@ export const projects: Project[] = [
     caseStudyUrl: '#',
     githubUrl: '',
     featured: false,
-  },
-  {
-    id: 'smileOn-ppecialist-pental-paractice',
-    title: 'SmileOn Specialist Dental Paractice',
-    description:
-      'SmileOn is one of Lahores leading multi-specialty dental clinics, offering comprehensive oral healthcare through a team of experienced dental specialists. The clinic provides advanced treatments including dental implants, cosmetic dentistry, orthodontics, veneers, teeth whitening, root canal therapy, and preventive dental care—delivering patient-focused treatment with modern technology and high clinical standards.',
-    longDescription:
-      'A full-stack booking platform that allows users to compare parking services, make secure online payments, and manage bookings through an intuitive interface.',
-    category: 'Web Apps',
-    image:
-      '/projects/smile.png',
-    tags: ['Next.js', 'Node.js', 'Stripe', 'TypeScript'],
-    liveUrl: 'https://smileon.pk/?gad_source=1&gad_campaignid=22098982968&gbraid=0AAAAACe0J1mdEJAmVUQD18HJm7Ee7k4gx&gclid=CjwKCAjwmozTBhAeEiwAkEGZzhVABWcFvkUR5e6348-4L56wiJAMknxv-1v2RbI9sFHTs56DgRI5kBoCcE0QAvD_BwE',
-    caseStudyUrl: '#',
-    githubUrl: '',
-    featured: true,
-  },
-  {
-    id: 'azar-plastic-surgery',
-    title: 'Azar Plastic Surgery',
-    description:
-      'Azar Plastic Surgery Clinic is a premium aesthetic and plastic surgery clinic specializing in cosmetic, reconstructive, and facial enhancement procedures. Led by an experienced consultant plastic surgeon, the clinic offers advanced treatments including rhinoplasty, hair transplant, liposuction, tummy tuck, facelift, eyelid surgery, and body contouring—combining modern surgical techniques with personalized care to deliver natural-looking, confidence-boosting results.',
-    longDescription:
-      'A full-stack booking platform that allows users to compare parking services, make secure online payments, and manage bookings through an intuitive interface.',
-    category: 'Web Apps',
-    image:
-      '/projects/surgery.png',
-    tags: ['Next.js', 'Node.js', 'Stripe', 'TypeScript'],
-    liveUrl: 'https://azarplast.com/rhinoplasty-surgery/?gad_source=1&gad_campaignid=23606400672&gbraid=0AAAABC9IYpDNTyHdR_vRMOitxl62Ac2c4&gclid=CjwKCAjwmozTBhAeEiwAkEGZzleX3ZresR5-hqvCgLV8G0BYZvrLjRJLGt3F32EmFN8ZQY70NC11ahoCFxwQAvD_BwE',
-    caseStudyUrl: '#',
-    githubUrl: '',
-    featured: true,
   },
 ];
